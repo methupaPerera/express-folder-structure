@@ -1,0 +1,2 @@
+{"level":"error","message":"Error creating the user : Error: User already exists","service":"acquisitions","timestamp":"2026-03-18T11:25:05.075Z"}
+{"level":"error","message":"Sign up error : Error: User already exists","service":"acquisitions","timestamp":"2026-03-18T11:25:05.075Z"}

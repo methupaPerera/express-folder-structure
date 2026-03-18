@@ -1,31 +1,58 @@
 {
-	"name": "ts-for-express",
-	"description": "This is a starter template for Express.js apps with Typescript. This includes all the regular folders, files and vercel configuration for deployment.",
-	"author": "Methupa Perera",
-	"license": "ISC",
-	"version": "2.0.0",
-	"type": "module",
-	"main": "./src/server.js",
-	"scripts": {
-		"start": "nodemon src/server"
+	"name": "aquisitions",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"imports": {
+		"#config/*": "./src/config/*",
+		"#controllers/*": "./src/controllers/*",
+		"#middleware/*": "./src/middleware/*",
+		"#models/*": "./src/models/*",
+		"#routes/*": "./src/routes/*",
+		"#services/*": "./src/services/*",
+		"#utils/*": "./src/utils/*",
+		"#validations/*": "./src/validations/*"
 	},
+	"scripts": {
+		"start": "node --watch src/index.ts",
+		"db:generate": "drizzle-kit generate",
+		"db:migrate": "drizzle-kit migrate",
+		"db:studio": "drizzle-kit studio"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/methupaPerera/aquisitions.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"bugs": {
+		"url": "https://github.com/methupaPerera/aquisitions/issues"
+	},
+	"homepage": "https://github.com/methupaPerera/aquisitions#readme",
 	"dependencies": {
+		"@neondatabase/serverless": "^1.0.2",
+		"bcrypt": "^6.0.0",
 		"cookie-parser": "^1.4.7",
 		"cors": "^2.8.6",
 		"dotenv": "^17.2.3",
-		"express": "^5.2.1"
+		"drizzle-orm": "^0.45.1",
+		"express": "^5.2.1",
+		"helmet": "^8.1.0",
+		"jsonwebtoken": "^9.0.3",
+		"morgan": "^1.10.1",
+		"winston": "^3.19.0",
+		"zod": "^4.3.6"
 	},
 	"devDependencies": {
+		"@types/bcrypt": "^6.0.0",
 		"@types/cookie-parser": "^1.4.10",
 		"@types/cors": "^2.8.19",
 		"@types/express": "^5.0.6",
-		"nodemon": "^3.1.11",
-		"ts-node": "^10.9.2"
-	},
-	"keywords": [
-		"express with typescript starter template",
-		"typescript",
-		"express",
-		"node"
-	]
+		"@types/jsonwebtoken": "^9.0.10",
+		"@types/morgan": "^1.9.10",
+		"@types/node": "^25.1.0",
+		"drizzle-kit": "^0.18.1"
+	}
 }

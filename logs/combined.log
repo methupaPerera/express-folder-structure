@@ -1,0 +1,18 @@
+{"level":"info","message":"::1 - - [18/Mar/2026:11:22:59 +0000] \"POST /api/auth/signup HTTP/1.1\" 400 164 \"-\" \"HTTPie\"","service":"acquisitions","timestamp":"2026-03-18T11:22:59.611Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:11:23:12 +0000] \"POST /api/auth/signup HTTP/1.1\" 400 101 \"-\" \"HTTPie\"","service":"acquisitions","timestamp":"2026-03-18T11:23:12.814Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:11:23:24 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisitions","timestamp":"2026-03-18T11:23:24.801Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:11:23:24 +0000] \"GET /favicon.ico HTTP/1.1\" 404 30 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisitions","timestamp":"2026-03-18T11:23:24.869Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:11:23:28 +0000] \"GET /api HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisitions","timestamp":"2026-03-18T11:23:28.092Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:11:23:35 +0000] \"POST /api HTTP/1.1\" 404 30 \"-\" \"HTTPie\"","service":"acquisitions","timestamp":"2026-03-18T11:23:35.177Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:11:23:56 +0000] \"GET /api HTTP/1.1\" 200 44 \"-\" \"HTTPie\"","service":"acquisitions","timestamp":"2026-03-18T11:23:56.143Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:11:24:11 +0000] \"POST /api/auth/signup HTTP/1.1\" 400 164 \"-\" \"HTTPie\"","service":"acquisitions","timestamp":"2026-03-18T11:24:11.492Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:11:24:18 +0000] \"POST /api HTTP/1.1\" 404 30 \"-\" \"HTTPie\"","service":"acquisitions","timestamp":"2026-03-18T11:24:18.875Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:11:24:20 +0000] \"POST /api HTTP/1.1\" 404 30 \"-\" \"HTTPie\"","service":"acquisitions","timestamp":"2026-03-18T11:24:20.822Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:11:24:22 +0000] \"POST /api HTTP/1.1\" 404 30 \"-\" \"HTTPie\"","service":"acquisitions","timestamp":"2026-03-18T11:24:22.258Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:11:24:27 +0000] \"GET /api HTTP/1.1\" 200 44 \"-\" \"HTTPie\"","service":"acquisitions","timestamp":"2026-03-18T11:24:27.567Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:11:24:37 +0000] \"GET /api/auth/signup HTTP/1.1\" 404 30 \"-\" \"HTTPie\"","service":"acquisitions","timestamp":"2026-03-18T11:24:37.864Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:11:24:42 +0000] \"POST /api/auth/signup HTTP/1.1\" 400 164 \"-\" \"HTTPie\"","service":"acquisitions","timestamp":"2026-03-18T11:24:42.425Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:11:24:58 +0000] \"POST /api/auth/signup HTTP/1.1\" 400 104 \"-\" \"HTTPie\"","service":"acquisitions","timestamp":"2026-03-18T11:24:58.160Z"}
+{"level":"error","message":"Error creating the user : Error: User already exists","service":"acquisitions","timestamp":"2026-03-18T11:25:05.075Z"}
+{"level":"error","message":"Sign up error : Error: User already exists","service":"acquisitions","timestamp":"2026-03-18T11:25:05.075Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:11:25:05 +0000] \"POST /api/auth/signup HTTP/1.1\" 400 70 \"-\" \"HTTPie\"","service":"acquisitions","timestamp":"2026-03-18T11:25:05.076Z"}
